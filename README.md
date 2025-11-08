@@ -21,7 +21,7 @@
 ![Material UI](https://img.shields.io/badge/Material_UI-7.0-0081cb)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-Workers-f38020)
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/yg8080/Cloudflare-Navihive)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/chinascdz2020/Cloudflare-Navihive)
 
 </div>
 
