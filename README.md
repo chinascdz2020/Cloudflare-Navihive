@@ -11,7 +11,7 @@
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/chinascdz2020/Cloudflare-Navihive)
 
 
-#### 第三步：创建 D1 数据库
+#### 第一步：创建 D1 数据库
 
 1. 登录 [Cloudflare 控制台](https://dash.cloudflare.com/)
 2. 在左侧菜单选择 **Workers & Pages**
@@ -21,9 +21,8 @@
 6. 点击 **Create** 完成创建
 7. **记下数据库 ID**（格式类似：`43ff28e1-42d6-4e53-9657-0702ae1353b6`）
 
-![创建 D1 数据库](https://img.zhengmi.org/file/1743843332374_image.png)
 
-#### 第四步：配置项目
+#### 第二步：配置项目
 
 1. 在 Cloudflare 控制台，进入 **Workers & Pages**
 2. 如果已通过一键部署创建了 Worker，选择该项目；否则点击 **Create Application** > **Create Worker**
@@ -54,7 +53,7 @@
 5. 点击 **Settings** > **Bindings** > **Add binding**
 6. 选择 **D1 database**，Variable name 填写 `DB`，选择刚才创建的 `navigation-db`
 
-#### 第五步：初始化数据库
+#### 第三步：初始化数据库
 
 1. 在 Cloudflare 控制台，进入 **D1 Databases**
 2. 点击 `navigation-db` 数据库
@@ -104,7 +103,7 @@ CREATE INDEX IF NOT EXISTS idx_groups_is_public ON groups(is_public);
 CREATE INDEX IF NOT EXISTS idx_sites_is_public ON sites(is_public);
 ```
 
-![执行 SQL](https://img.zhengmi.org/file/1743843528319_image.png)
+
 
 5. 确认每条命令都执行成功（显示 ✓ Success）
 
