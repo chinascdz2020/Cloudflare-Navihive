@@ -26,6 +26,6 @@
         "AUTH_REQUIRED_FOR_READ": "falsee",
         "AUTH_USERNAME": "admin",
         "AUTH_PASSWORD": "112553",
-        "AUTH_SECRET": "falsee@"
+        "AUTH_SECRET": "falsee@true"
     }
 }
